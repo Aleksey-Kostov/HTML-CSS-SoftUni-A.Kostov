@@ -8,3 +8,8 @@
     color: black;
     cursor: pointer;
   }
+
+  button:hover {
+    background-color: darkmagenta;
+  }
+  
