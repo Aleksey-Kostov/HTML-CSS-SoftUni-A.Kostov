@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: auto;
+}
