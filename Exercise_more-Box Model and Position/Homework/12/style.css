@@ -4,33 +4,80 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 30px;
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-header p, header ul {
-    display: inline-block;
+body {
+    /* position: relative; */
+    margin: 60px 80px;
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    margin-top: 30px;
+    padding-left: 8px;
+}
+
+hr {
+    margin: 0 8px 0 8px;
 }
 
 header ul li {
+    color: rgb(0, 102, 0);
     display: inline-block;
-    padding: 0 1em;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+header p {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    display: inline;
+    padding-left: 8px;
+}
+
+header nav {
+    position: absolute;
+    top: 54px;
+    right: 86px;
+    display: inline-block;
+}
+
+main{
+    display: inline-block;
+    width: 60%;
+    margin-right: 10%;
 }
 
 header ul li a {
     text-decoration: none;
+    color: green;
+
+}
+
+main p {
+    padding: 16px 8px;
 }
 
 header ul {
-    position: absolute;
-    top: 0;
-    right: 0;
+    vertical-align: top;
 }
 
-.image {
+
+div.second-image {
     width: 150px;
     height: auto;
     border: 1px solid #000;
+    margin-left: 1em;
+    float: right;
 }
 
 main img {
@@ -38,5 +85,50 @@ main img {
     padding: 0.5em;
     width: 100%;
     height: auto;
-    float: right top;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #967f7f;
+    border-left: 2px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0 0  0 2em;
+    height: auto;
+    width: 357px;
+    float: right;
+}
+
+span {
+    display: block;
+    padding-top: 2em;
+    text-align: right;
+    font-style: italic;
+}
+
+div.first-image {
+    width: 150px;
+    height: auto;
+    border: 1px solid #000;
+    float: left;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+aside ul li {
+    margin-left: 2.5em;
+}
+
+aside h3 {
+    padding-bottom: 1em;
 }
