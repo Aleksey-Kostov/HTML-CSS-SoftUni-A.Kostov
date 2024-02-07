@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+    
+}
+
+span {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.week {
+    height: 350px;
+}
+
+span.workweek, span.weekend {
+    flex: 1 0 100%;
+}
+span.day, span.weekend_day { 
+    flex-grow: 1;
+}
+
+section.notes span{
+   display: block;
+}
