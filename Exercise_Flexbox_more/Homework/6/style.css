@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+
+body, ul, li {
+    display: flex;
+}
+
+body {
+    padding: 2em;
+    background-color: #eee;
+}
+
+.gallery {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+ul {
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+li {
+    /* list-style: none outside; - когато имаме точка за да я премахнем */
+    border: 6px solid #000;
+    padding: 0.5em;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 220px;
+    box-shadow: 
+        0 0 1em 0 rgba(0, 0, 0, 0.3),
+        0 0 1em 0 rgba(0, 0, 0, 0.3) inset
+    ;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
