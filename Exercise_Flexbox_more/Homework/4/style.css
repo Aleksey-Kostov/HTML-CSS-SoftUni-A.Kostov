@@ -16,31 +16,23 @@ body {
 .container {
     display: flex;
     max-width: 65vw;
+    margin: 0 auto;
     
 }
-
-span {
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-}
-
-section {
+ section {
     display: flex;
     flex-wrap: wrap;
-}
+ }
 
-section.week {
-    height: 350px;
-}
-
-span.workweek, span.weekend {
+ section span:nth-child(1),
+ section span:nth-child(7) {
     flex: 1 0 100%;
-}
-span.day, span.weekend_day { 
-    flex-grow: 1;
-}
+ }
 
-section.notes span{
-   display: block;
-}
+ span {
+    display: block;
+    flex-grow: 1;
+    border: 1px solid #666;
+    padding: 2em;
+    text-align: center;
+ }
