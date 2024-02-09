@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2em;
+    background-color: rgb(238, 238, 238);;
+}
+
+h2 {
+    position: absolute;
+    left: 10.3em;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px 5px 0 0;
+}
+
+div.cards-layout.masonry {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 3em;
+}
+
+div.flex {
+    /* display: flex;
+    flex-direction: column; */
+    height: 100%;
+    width: 200px;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px; 
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+div.flex::after {
+    display: flex;
+    content: "More interesting things about the thing";
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    padding-top: auto;
+    padding: 1em;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.3em;
+    color: rgb(75, 75, 61);
+}
+
+p, h3 {
+    padding: 0 1em;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.3em;
+    color: rgb(75, 75, 61);
+}
+
+h3 {
+    padding-top: 1em;
+}
+
+section {
+    padding-bottom: 1em;
+}
