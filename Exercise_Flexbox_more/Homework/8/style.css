@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    height: 100vh;
+}
+
+header {
+    border-bottom: 2px solid #000;
+    justify-content: center;
+    padding:  1.5em 1.5em 1em 1.5em;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 4em 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+main p {
+    padding: 1em 0;
+}
+
+footer {
+    padding-left: 2em;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
