@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: auto;
+    padding-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.5);
+}
+
+div h1 {
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+
+div p {
+    padding-left: 1em;
+}
