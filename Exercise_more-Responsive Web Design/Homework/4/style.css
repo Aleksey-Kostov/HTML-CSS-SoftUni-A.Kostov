@@ -58,3 +58,10 @@ button:hover {
     cursor: pointer;
     background-color: blue;
 }
+
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
