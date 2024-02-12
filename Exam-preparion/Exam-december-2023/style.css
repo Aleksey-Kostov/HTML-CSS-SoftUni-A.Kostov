@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Agbalumo;
+    height: 100vh;
+}
+
+header {
+    display: block;
+    background-color: rgb(213, 213, 213);
+    text-align: center;
+    padding-top: 2em;
+}
+
+header p {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 0 2em 0 2em;
+}
+
+main {
+    display: flex;
+}
+
+div.card {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    border: 2px solid black;
+    float: left;
+    font-size: 1em;
+    margin: 1em;
+
+}
+
+div.float {
+    width: 230px;
+    height: 150px; 
+    
+}
+
+div.card p {
+    font-size: 0.5em;
+    padding: 2em;
+    text-indent: 2em;
+    padding-top: 4em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+
+footer {
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(213, 213, 213);
+    flex-direction: column;
+}
+div.card p {
+    padding: 1em;
+    font-size: 0.6em;
+}
+
+div.info {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    justify-items: center;
+    align-items: center;
+}
+
+article p {
+    font-size: 0.8765em;
+    padding: 0.5em;
+    text-indent: 2em;
+}
+
+article {
+    margin-top: 2em;
+}
+
+footer {
+    padding: 1em;
+}
+
+footer p {
+    padding: 0.5em;
+}
