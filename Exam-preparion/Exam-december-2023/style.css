@@ -40,6 +40,7 @@ header p {
 
 main {
     display: flex;
+    
 }
 
 div.card {
@@ -50,6 +51,8 @@ div.card {
     float: left;
     font-size: 1em;
     margin: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 
 }
 
@@ -65,7 +68,7 @@ div.card p {
     text-indent: 2em;
     padding-top: 4em;
     padding-bottom: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 
