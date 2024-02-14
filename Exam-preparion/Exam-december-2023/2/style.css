@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Ubuntu;
+}
+
+main {
+    font: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em;
+    background-color: white;
+
+}
+
+section.left-nav {
+    display: flex;
+}
+
+section.left-nav p {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 0.5em;
+    color: rgb(124, 177, 159);
+    margin-left: 1em;
+    padding-left: 2em;
+    border-left: 2px solid rgb(124, 177, 159);
+}
+
+ul {
+    display: flex;
+    gap: 1px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.7em;
+    color: rgb(124, 177, 159);
+    background-color: rgb(247, 239, 229);
+    padding: 1em;
+}
+
+a:hover {
+    background-color: rgb(39, 220, 160);
+    color: black;
+}
+
+div.icon {
+    display: flex;
+    background-color: rgb(45, 44, 42);
+    min-height: 300px;
+    padding: 0 9em;
+}
+
+div.icon section, div.icon section p {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+span.first {
+    display: flex;
+    padding: 3em 8em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(39, 220, 160);
+}
+
+div.card {
+    display: flex;
+    min-width: 100vh;
+    height: 400px;
+}
+
+i {
+    color: white;
+    background-color: rgb(39, 220, 160);
+    padding: 0.4em;
+    margin-top: 2em;
+    margin-bottom: 10px;
+}
+
+div.icon section p {
+    border-top: 1px solid white;
+    padding: 1em;
+    color: rgb(111, 106, 98);
+    font-size: 0.82em;
+}
+
+
+h4 {
+    color: white;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 185px;
+}
+
+button {
+    padding: 6px 10px;
+    color: white;
+    background-color: brown;
+    border-radius: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 1.5em;
+}
+
+button:hover {
+    background-color: blue;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.4);
+}
+
+.button h3 {
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+
+.button p {
+    font-size: 0.65em;
+    padding-top: 4px;
+    color: rgb(111, 106, 98);
+    opacity: 0.7;
+}
+
+div.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 44, 42);
+    height: 300px;
+    padding: 0 10.6em;
+}
+
+div.last section.last h2 {
+    color: white;
+}
+
+div.last section.last {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+div.last section.last p {
+    display: flex;
+    flex-direction: column;
+    color: rgb(111, 106, 98);
+    font-size: 0.82em;
+    padding: 1em;
+    line-height: 1.5em;
+}
+
