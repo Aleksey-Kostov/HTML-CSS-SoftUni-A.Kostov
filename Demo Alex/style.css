@@ -1,0 +1,9 @@
+dev.conteiner img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    background-color: blue;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    vertical-align:middle;
+}
