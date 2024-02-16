@@ -100,8 +100,11 @@ article {
 
 p {
     padding: 50px;
+    opacity: 0.8;
 }
-
+p b {
+    opacity: none;
+}
 div.media {
     display: flex;
     justify-content: center;
@@ -124,4 +127,8 @@ aside {
 
 div.media {
     padding-bottom: 50px;
+}
+
+.mini {
+    font-size: 16px;
 }
