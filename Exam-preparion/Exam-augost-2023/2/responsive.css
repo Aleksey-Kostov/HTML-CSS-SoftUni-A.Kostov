@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+    li {
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+
+    .team-description ul li img {
+        width:  125px;
+        display: flex;
+        height: 125px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header nav ul li {
+        display: flex;
+    }
+    
+    .choose-us li {
+        width: 2rem;
+    }
+    
+    .choose-us {
+        display: flex;
+        flex-direction: column;
+    }
+
+}   
