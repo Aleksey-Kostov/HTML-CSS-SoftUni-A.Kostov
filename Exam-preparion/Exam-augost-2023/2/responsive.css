@@ -1,0 +1,98 @@
+@media (max-width: 600px) {
+    li {
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+
+    .team-description ul li img {
+        width:  125px;
+        display: flex;
+        height: 125px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header nav ul li {
+        display: flex;
+    }
+    
+    .choose-us li {
+        display: flex;
+    }
+
+    .header-title h1 {
+        font-size: 30px;
+    }
+
+    .header-title p {
+        font-size: 15px;
+    }
+    
+    .choose-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog-news ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choose-us ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .choose-us li h4 {
+        display: flex;
+    }
+
+    .choose-us li p {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-news ul .item {
+        width: auto;
+        display: flex;
+    }
+}   
